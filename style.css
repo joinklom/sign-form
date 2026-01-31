@@ -6,10 +6,9 @@ body {
 #containerLeft, #containerRight {
     display: flex;
     flex-direction: column;
-    border: 1px solid black;
     height: 1000px;
     width: 1200px;
-    background-color: rgb(250, 238, 238);
+    background-color: rgb(241, 238, 238);
 }
 
 #containerLeft {
@@ -25,10 +24,20 @@ body {
     justify-content: center;
     margin-top: 200px;    
     color: antiquewhite;
-    background-color: rgba(0, 0, 0, 0.671);
+    background-color: rgba(0, 0, 0, 0.363);
     height: 8%;
     padding: 8%;
     font-size: 80px;
     font-weight: 1000;
 }
 
+
+#containerRight {
+    margin-left: 20px;
+    
+}
+
+#formContainer{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+}
