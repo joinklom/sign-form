@@ -1,5 +1,6 @@
 body {
     display: flex;
+    background-color: rgb(241, 238, 238);
 }
 
 
@@ -8,7 +9,6 @@ body {
     flex-direction: column;
     height: 1000px;
     width: 1200px;
-    background-color: rgb(241, 238, 238);
 }
 
 #containerLeft {
@@ -16,6 +16,7 @@ body {
     justify-items: flex-start;
     width: 30%;
     background-color: rgb(5, 5, 44);
+
 }
 
 #leftLogo {
@@ -33,11 +34,66 @@ body {
 
 
 #containerRight {
-    margin-left: 20px;
-    
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: center;
 }
 
-#formContainer{
+#description{
+    margin: 20px;
+    font-size: large;
+    font-weight: 600;
+    margin-bottom: 50px;
+    margin-left: 30px;
+}
+
+#letsDoThis{
+    font-size: large;
+    font-weight: 600;
+    margin-left: 30px;
+    margin-top: 20px;
+
+}
+
+#formBanner{
     display: flex;
+    align-self: center;
+    flex-direction: column;
     background-color: rgb(255, 255, 255);
+    height: 30%;
+    width: 100%;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+.formInputContainer{
+    display: flex;
+    margin: 10px;
+    margin-left: 30px;
+}
+
+.formInput{
+    margin-right: 200px;
+    box-shadow: inset;
+}
+
+#createAccountContainer{
+    margin: 30px;
+}
+#createAccount{
+    background-color: olivedrab;
+    color: aliceblue;
+    font-weight: 700;
+    padding: 13px;
+    width: 170px;
+    border-radius: 10px;
+}
+
+input{
+    width: 120%;
+    height: 50%
 }
